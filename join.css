@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background:
+    linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),
+    url("images/join-bg.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 450px;
+    background: rgba(20,20,20,.8);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255,255,255,.1);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 15px 40px rgba(0,0,0,.5);
+}
+
+.container h1{
+    color:#fff;
+    text-align:center;
+    margin-bottom:10px;
+    font-size:2rem;
+}
+
+.container h1 span{
+    color:#ff4d00;
+}
+
+.container p{
+    color:#ccc;
+    text-align:center;
+    margin-bottom:30px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+form input,
+form select,
+form textarea{
+    width:100%;
+    padding:15px;
+    background:#222;
+    border:2px solid transparent;
+    border-radius:10px;
+    color:#fff;
+    font-size:16px;
+    transition:.3s;
+}
+
+form textarea{
+    resize:none;
+    height:120px;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus{
+    border-color:#ff4d00;
+}
+
+form button{
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    background:#ff4d00;
+    color:#fff;
+    font-size:18px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+form button:hover{
+    background:#ff6a2b;
+    transform:translateY(-3px);
+    box-shadow:0 10px 25px rgba(255,77,0,.4);
+}
