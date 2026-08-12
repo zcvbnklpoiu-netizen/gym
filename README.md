@@ -1,43 +1,48 @@
-# 🏋️ Peak Fitness
+# Peak Fitness
 
-A modern and responsive gym website built with HTML, CSS, and JavaScript.
+A responsive fitness website built with **HTML5**, **CSS3**, and **JavaScript**.
 
-## 🚀 Live Demo
+## Live Demo
 
-https://zcvbnklpoiu-netizen.github.io/gym/
+[Open the live demo](https://zcvbnklpoiu-netizen.github.io/gym/)
 
-## 🛠️ Technologies
+## Features
+
+- Fitness services and membership plans.
+- Customer reviews section.
+- Membership registration interface.
+- Responsive layout.
+- Mobile navigation menu.
+- Typing effect.
+- Loading animation.
+- Animated counter elements.
+
+> The membership registration page is a front-end interface. No backend persistence or server-side registration system is claimed.
+
+## Technologies
 
 - HTML5
 - CSS3
 - JavaScript
 - Responsive Web Design
 
-## ✨ Features
-
-- 🏠 Modern Home Page
-- 💪 Gym Services
-- 📋 Membership Plans
-- ⭐ Customer Reviews
-- 📝 Membership Registration
-- 📱 Fully Responsive Design
-- 🍔 Mobile Navigation Menu
-- ⌨️ Typing Effect
-- 🔄 Loading Animation
-- 🔢 Animated Counter
-
-## 🎯 Membership Plans
-
-- Basic
-- Pro
-- Elite
-
-## 📂 Project Structure
+## Project Structure
 
 ```text
 gym/
 ├── index.html
 ├── join.html
-├── css/
-├── js/
+├── join.css
+├── join.js
+├── script.js
+├── style.css
 └── images/
+```
+
+## Run Locally
+
+Open `index.html` in a browser, or serve the project with any local static server.
+
+## Repository
+
+[View the source code on GitHub](https://github.com/zcvbnklpoiu-netizen/gym)
