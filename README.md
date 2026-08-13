@@ -2,47 +2,24 @@
 
 A responsive fitness website built with **HTML5**, **CSS3**, and **JavaScript**.
 
-## Live Demo
-
-[Open the live demo](https://zcvbnklpoiu-netizen.github.io/gym/)
-
 ## Features
 
 - Fitness services and membership plans.
 - Customer reviews section.
-- Membership registration interface.
-- Responsive layout.
-- Mobile navigation menu.
-- Typing effect.
-- Loading animation.
-- Animated counter elements.
+- Front-end membership registration interface.
+- Responsive layout and mobile navigation.
+- Typing effect, loading animation, and animated counters.
 
 > The membership registration page is a front-end interface. No backend persistence or server-side registration system is claimed.
 
-## Technologies
+## Tech stack
 
-- HTML5
-- CSS3
-- JavaScript
-- Responsive Web Design
+HTML5 · CSS3 · JavaScript · Responsive Web Design
 
-## Project Structure
+## Live demo and repository
 
-```text
-gym/
-├── index.html
-├── join.html
-├── join.css
-├── join.js
-├── script.js
-├── style.css
-└── images/
-```
+[Open the live demo](https://zcvbnklpoiu-netizen.github.io/gym/) · [View the repository](https://github.com/zcvbnklpoiu-netizen/gym)
 
-## Run Locally
+## Run locally
 
-Open `index.html` in a browser, or serve the project with any local static server.
-
-## Repository
-
-[View the source code on GitHub](https://github.com/zcvbnklpoiu-netizen/gym)
+Open `index.html` in a browser, or serve the folder with any local static server.
